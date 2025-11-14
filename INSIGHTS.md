@@ -33,7 +33,7 @@ Files: "challenge.sql", "INSIGHTS.md"
 
 - Each department has at least one employee earning above the department average.
 - The largest salary gap occurs in Sales, where Alice earns $11,000 over the average.
-- IT also has a notable spread, with Maya earning ~$6,700 above the department average.
+- IT also has a notable spread, with Maya earning $6,700 above the department average.
 - Salary differences suggest these employees may hold senior, high-performing, or specialized roles.
 - Overall salary dispersion is relatively small within each department, indicating stable pay structures.
 
