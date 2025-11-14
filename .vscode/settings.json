@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "group": "codegroup",
+            "name": "codealong",
+            "database": "bais_sqlite_lab.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
