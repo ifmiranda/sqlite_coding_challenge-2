@@ -65,7 +65,21 @@ GROUP BY
     c.city
 ORDER BY
     gold_customer_count DESC,
-    c.city ASC;  
+    c.city ASC;   
+
+-- Task 4 Extension Loyalty Distribution by City -- 
+SELECT
+    c.city,
+    SUM(CASE WHEN c.loyalty_level = 'Gold'   THEN 1 ELSE 0 END) AS gold_customers,
+    SUM(CASE WHEN c.loyalty_level = 'Silver' THEN 1 ELSE 0 END) AS silver_customers,
+    SUM(CASE WHEN c.loyalty_level = 'Bronze' THEN 1 ELSE 0 END) AS bronze_customers,
+    COUNT(*) AS total_customers
+FROM customers AS c
+GROUP BY
+    c.city
+ORDER BY
+    gold_customers DESC,
+    c.city ASC; 
  
 
 
