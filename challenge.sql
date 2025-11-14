@@ -79,7 +79,7 @@ GROUP BY
     c.city
 ORDER BY
     gold_customers DESC,
-    c.city ASC; 
+    c.city ASC;  
  
 
 
